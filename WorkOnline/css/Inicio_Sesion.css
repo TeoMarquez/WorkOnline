@@ -1,0 +1,153 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2,h3{
+    padding-bottom: 25px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 20px 0;
+    min-height: calc(100vh - 120px);
+}
+
+.welcome {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 48%;
+    padding: 15px;
+    margin: 10px 1%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:nth-child(1) {
+    background-color: red;
+    color: white;
+}
+
+form button:nth-child(2) {
+    background-color: #3498db;
+    color: white;
+}
+
+form button:nth-child(2):hover {
+    background-color: #217dbb;
+    transition: background-color 0.3s ease;
+}
+
+form .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form .options a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+form .options a:hover {
+    color: #217dbb;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+footer p:hover {
+    color: #4CAF50;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* Estilos específicos para los botones */
+.form-buttons {
+    display: flex;
+    justify-content: space-between; /* Espaciado uniforme */
+    align-items: center;
+}
+
+#branches-container .branch {
+    display: flex;
+    gap: 10px; /* Espaciado entre los inputs y botones */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#btn-addSede {
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-addSede:hover {
+    background-color: #3e8e41;
+    transition: background-color 0.3s ease;
+}
+
+#btn-eliminarSede {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-eliminarSede:hover {
+    background-color: darkred;
+    transition: background-color 0.3s ease;
+}

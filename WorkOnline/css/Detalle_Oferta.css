@@ -1,0 +1,159 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6b6b;
+}
+
+
+.ofertas {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.ofertas h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.oferta {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.oferta:hover {
+    transform: scale(1.02);
+}
+
+.oferta h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.oferta p {
+    margin: 5px 0;
+}
+
+.oferta a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.btn-detalle {
+    background-color: #007bff;
+    margin-right: 10px;
+}
+
+.btn-detalle:hover {
+    background-color: #0056b3;
+}
+
+.btn-postular {
+    background-color: #28a745;
+}
+
+.btn-postular:hover {
+    background-color: #1e7e34;
+}
+
+/* Detalle de ofertas */
+.detalle-oferta {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.detalle-oferta h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.detalle-oferta div {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.detalle-oferta ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.detalle-oferta li {
+    margin-bottom: 5px;
+}
+
+.detalle-oferta a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #28a745;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.detalle-oferta a:hover {
+    background-color: #1e7e34;
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}

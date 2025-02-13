@@ -1,0 +1,38 @@
+/* Estilo para las secciones */
+#about {
+    padding-top: 60px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+ul li strong {
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .faq-content-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
